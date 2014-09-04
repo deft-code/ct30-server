@@ -2,17 +2,27 @@ package main
 
 import (
 	"bytes"
+<<<<<<< HEAD
 	"encoding/hex"
 	"encoding/json"
 	"errors"
 	"flag"
 	"fmt"
+=======
+	"compress/gzip"
+	"encoding/hex"
+	"flag"
+	"io/ioutil"
+>>>>>>> 345c7f45cd3589595b5e1fe63b0f6dc6f6e0ae2b
 	"log"
 	"net/http"
 	"net/http/httputil"
 	"net/url"
 	"os"
+<<<<<<< HEAD
 	"strings"
+=======
+>>>>>>> 345c7f45cd3589595b5e1fe63b0f6dc6f6e0ae2b
 )
 
 var urlFlag = flag.String("radio_url", "http://ws.radiothermostat.com", "Don't include the path component")
@@ -30,6 +40,7 @@ func (w LoggedResponseWriter) WriteHeader(status int) {
 }
 
 func (w LoggedResponseWriter) Write(msg []byte) (int, error) {
+<<<<<<< HEAD
 	log.Printf("response[%d]: %s\n", len(msg), hex.EncodeToString(msg))
 	return w.ResponseWriter.Write(msg)
 }
@@ -86,15 +97,45 @@ func req_printer(req *http.Request) error {
 	log.Printf("json payload: %s", string(json_payload))
 	log.Printf("EIV: %q", post.EIV)
 	return nil
+=======
+	log.Println("hex response:", hex.EncodeToString(msg))
+
+	buf := bytes.NewBuffer(msg)
+	r, err := gzip.NewReader(buf)
+	if err != nil {
+		log.Println("Unable to create gzip:", err)
+	} else {
+		plain_msg, err := ioutil.ReadAll(r)
+		if err != nil {
+			log.Println("Unable to read compressed:", err)
+		} else {
+			log.Println("gzip response:", string(plain_msg))
+		}
+	}
+
+	log.Println("response:", string(msg))
+	return w.ResponseWriter.Write(msg)
+>>>>>>> 345c7f45cd3589595b5e1fe63b0f6dc6f6e0ae2b
 }
 
 func handler(rw http.ResponseWriter, req *http.Request) {
 
+<<<<<<< HEAD
 	err := req_printer(req)
 	if err != nil {
 		log.Print(err)
 	}
 
+=======
+	dump, err := httputil.DumpRequest(req, true)
+
+	if err != nil {
+		log.Fatalf("failed read request: %s", err)
+	}
+
+	log.Println("request:", string(dump))
+
+>>>>>>> 345c7f45cd3589595b5e1fe63b0f6dc6f6e0ae2b
 	w := LoggedResponseWriter{rw}
 	reverseProxy.ServeHTTP(w, req)
 }
@@ -108,7 +149,11 @@ func main() {
 	reverseProxy = httputil.NewSingleHostReverseProxy(url)
 
 	http.HandleFunc("/", handler)
+<<<<<<< HEAD
 	log.Println("Start serving on port", *port)
+=======
+	log.Println("Start serving on port 8000")
+>>>>>>> 345c7f45cd3589595b5e1fe63b0f6dc6f6e0ae2b
 	http.ListenAndServe(*port, nil)
 	os.Exit(0)
 }
