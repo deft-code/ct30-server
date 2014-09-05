@@ -11,7 +11,7 @@ import (
 	"unicode"
 )
 
-var uuid = "88308a1a0700"
+var uuidFlag = flag.String("uuid", "01234567890a", "uuid from /cloud")
 var authkeyFlag = flag.String("authkey", "01234567", "authkey from /cloud")
 
 func clean(data []byte) string {
