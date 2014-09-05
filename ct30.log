@@ -1,0 +1,229 @@
+2014/09/04 20:56:18 Start serving on port :8080
+2014/09/04 20:56:38 request:
+ POST /services.svc/StatIn HTTP/1.1
+Host: 10.1.10.17
+Content-Type: application/octet-stream
+User-Agent: WMSDK/1.0.0
+
+{"uuid":"88308a1a0700","format_ver":"102","eiv":"8d979c43e36cbe7ada9f8e0463b5feba"}
+2014/09/04 20:56:38 Payload[304]: 15d1069b39845c4a811ec4a9aa03a003d42ebda3af67e8a74145a6eb1714f7d332cf9fce3ddbd040c97e1578797507a5c01644efacabbab9934dd040699d0855d423590af7e4dae035ad6603511bd17f2bc390aac5db344056eef77548c7f09972af92ec9678e3c0eb8b7cae69009263bd7ff6d1603d1f53a4f5db91a1803b4c02b996a2fcf3ad5f5e57280e913acda55a7b645325a93dc47f41c9803ca2f4f3fc5e682d39958a979c36d8f4289c9b58d196c569d1ee720504a52f7ac8f59bf5575c3b6ee8a7f6aa83d8415ba51838b8c8a0c377ed3cd1987014ace4c18ae35cfd565cba6fc8676658de3cd56fd945df8963b3b562417c8cd899289b635a4cc5b08c2bd74f55cf8d4affb94a0ea5c6684c96e3cb4db509fa70438768587dae6c3fcfdea98dc462ac73ad9590861aa84f
+2014/09/04 20:56:38 json payload: {"uuid":"88308a1a0700","format_ver":"102","eiv":"8d979c43e36cbe7ada9f8e0463b5feba"}
+2014/09/04 20:56:38 EIV: "8d979c43e36cbe7ada9f8e0463b5feba"
+2014/09/04 20:56:38 responded: 200 map[Content-Type:[application/octet-stream;charset=UTF-8] Set-Cookie:[JSESSIONID=246bc61f-102f-4248-9bfd-8bd32074d4f1; Path=/ctp] Content-Length:[32] Cache-Control:[no-cache no-store] Date:[Fri, 05 Sep 2014 03:56:38 GMT] Expires:[Thu, 01 Jan 1970 00:00:00 GMT] Pragma:[no-cache] Connection:[keep-alive]]
+2014/09/04 20:56:38 response[32]: 051b90781213877deac719ba7e3d44a55664cb88c27e649f82dc8ef4fe206e0a
+2014/09/04 20:57:09 request:
+ POST /services.svc/StatIn HTTP/1.1
+Host: 10.1.10.17
+Content-Type: application/octet-stream
+User-Agent: WMSDK/1.0.0
+
+{"uuid":"88308a1a0700","format_ver":"102","eiv":"5664cb88c27e649f82dc8ef4fe206e0a"}
+2014/09/04 20:57:09 Payload[304]: 5a936e7af69232d11c696265d24c04d9110be17766c375fba4bb48e2cfc69d889bcbcd8ea14d5dfa9127df93b25303ddad3e5416739f12292dbb842f3a3789da272a25f6ba6080d3b46900f1a45d83774bb1f658effcb5f937bf28e9c9602c562860c287241a5b7f5e5658fcb7d38269a28465cee7d0a8d890a976311a39476e290b1240cb1a55ff4ab3f3c0e6022e46d6e1606796d88a8561f166647da6d1ef103c26dad01550da75e7e16d935031bda51de9233dd81a0a9b697a1448d1540b13c1bdd59a6d27d7fa282328c399eae358f214fe88c06d471b8cf077adfb708184125a6ea2605a119951159bee36b0fdc8ab7a747a48c97bf15bb401cf5f82121a7a0a1bb6a27d368c1397ba49bea4b22963b539964cd255e45f26280369ebc11d8afb6dff0650f2a674f4b2aa0d8476
+2014/09/04 20:57:09 json payload: {"uuid":"88308a1a0700","format_ver":"102","eiv":"5664cb88c27e649f82dc8ef4fe206e0a"}
+2014/09/04 20:57:09 EIV: "5664cb88c27e649f82dc8ef4fe206e0a"
+2014/09/04 20:57:10 responded: 200 map[Cache-Control:[no-cache no-store] Content-Type:[application/octet-stream;charset=UTF-8] Pragma:[no-cache] Set-Cookie:[JSESSIONID=7ef1af7f-689b-427a-b432-e1e53aece979; Path=/ctp] Content-Length:[32] Connection:[keep-alive] Date:[Fri, 05 Sep 2014 03:57:10 GMT] Expires:[Thu, 01 Jan 1970 00:00:00 GMT]]
+2014/09/04 20:57:10 response[32]: 3124129dd50c0907ec1a73415efad3044b4a30eaa573142cc0acbef7b8510a64
+2014/09/04 20:57:41 request:
+ POST /services.svc/StatIn HTTP/1.1
+Host: 10.1.10.17
+Content-Type: application/octet-stream
+User-Agent: WMSDK/1.0.0
+
+{"uuid":"88308a1a0700","format_ver":"102","eiv":"4b4a30eaa573142cc0acbef7b8510a64"}
+2014/09/04 20:57:41 Payload[304]: 27c03b450ef47bb1d9ee6b7bc29fc7d27a95d8d1eb838fbe824d998d78e32207abfbe8c6e7a937f38af0bfcf7b1fbe81ec3a9626289c9da834e6408aa04648a912140f07a1664273983d820f278d0e1073fb68aea84961cfffe24231ce45c983d3001a1bf026648f41cc335a71be3c1604483c0a1df45be0c91cdc298109616524c14442ad905fde274ce20a21b72f6f74cac02f574efa0353c66b0a15bf29cc0f37784d7f7f75654125a50b3e12a2d869ff3f69578abbf263d6e0d716e333e4b09f8225cfbdf6cc63c87b8d35f64ccc343ca8a7b2f661f77580cd6b3a55b19314498e45b1b2c997434c2fea87d27bbd79bfaeff766477e5b8700923ae0ecf7451c7e0ed6fcff9d9223288515387c144f460b9e0f77e795a719d0e7114be950952d78b6c32bfbf35ba1ef23bf0285d6e
+2014/09/04 20:57:41 json payload: {"uuid":"88308a1a0700","format_ver":"102","eiv":"4b4a30eaa573142cc0acbef7b8510a64"}
+2014/09/04 20:57:41 EIV: "4b4a30eaa573142cc0acbef7b8510a64"
+2014/09/04 20:57:41 responded: 200 map[Cache-Control:[no-cache no-store] Expires:[Thu, 01 Jan 1970 00:00:00 GMT] Pragma:[no-cache] Set-Cookie:[JSESSIONID=ad095ae1-a8f5-43f0-915d-9f18c277f483; Path=/ctp] Content-Length:[32] Content-Type:[application/octet-stream;charset=UTF-8] Date:[Fri, 05 Sep 2014 03:57:41 GMT] Connection:[keep-alive]]
+2014/09/04 20:57:41 response[32]: ff704e01a08a43b1c1fd0cd1b3194fe786c96362d923fdd455db1dc23ae3363e
+2014/09/04 20:58:12 request:
+ POST /services.svc/StatIn HTTP/1.1
+Host: 10.1.10.17
+Content-Type: application/octet-stream
+User-Agent: WMSDK/1.0.0
+
+{"uuid":"88308a1a0700","format_ver":"102","eiv":"86c96362d923fdd455db1dc23ae3363e"}
+2014/09/04 20:58:12 Payload[304]: 7cfa267165061d23544a1954147a1b2580a6f387e40da5c7fb6c28f34bb766485c9443f0aa3135ac56834f90a5b41017ef11069bb3c3e1246f941d02cebd9a059e14f2217e25ef4a1cf2656b43a21a7df26f3e57d7a513bb23e3e77f82d3b6debe98e68650a095eedeb131468bb07e479a06f927d10f9e4c4652eb1eb2240f6f4d2ae3851386a641ae69460288abe9d337faa998df542ee89ac50e2744f56be00211bf4bbc7f8c68ce8541bd09d913227aafdad46bcab88da9e8803ef607e3a30d36e4043e42c995c0dea56dd2a83cbde4c3b38d0e77a8c85bca145e721036b1d317d480acf965d8bf98a7389de9eb7a3772baba6ab16b1d8385343d63acfa9648e222bf5398b2cfac29291db614149b117516bc46518d2ebcf3873435dce8ab2946e543440c71dd2a40a4c48337a1db
+2014/09/04 20:58:12 json payload: {"uuid":"88308a1a0700","format_ver":"102","eiv":"86c96362d923fdd455db1dc23ae3363e"}
+2014/09/04 20:58:12 EIV: "86c96362d923fdd455db1dc23ae3363e"
+2014/09/04 20:58:12 responded: 200 map[Content-Length:[32] Cache-Control:[no-cache no-store] Content-Type:[application/octet-stream;charset=UTF-8] Date:[Fri, 05 Sep 2014 03:58:12 GMT] Expires:[Thu, 01 Jan 1970 00:00:00 GMT] Pragma:[no-cache] Set-Cookie:[JSESSIONID=9e726d9c-25e1-4225-ad5c-230509f10935; Path=/ctp] Connection:[keep-alive]]
+2014/09/04 20:58:12 response[32]: 93a6017df81d909cd879e65f6819914d652772ad83ea8a18d7b02f10295d733a
+2014/09/04 20:58:44 request:
+ POST /services.svc/StatIn HTTP/1.1
+Host: 10.1.10.17
+Content-Type: application/octet-stream
+User-Agent: WMSDK/1.0.0
+
+{"uuid":"88308a1a0700","format_ver":"102","eiv":"652772ad83ea8a18d7b02f10295d733a"}
+2014/09/04 20:58:44 Payload[304]: 075a1a306b525d3df89b53ef1f4386e83cb36a05d520c630c70189f34d197d9a478ad5ad5a0ead93eadf451a12095f0fd4d8ec9556cb1abcd3da92094e407c4299ef9821c097b4a407b6401844b7096a00924dedb101c2f4aa84dcbd09c397d9314349b1d6a07c60668d5cecea648173b7908c61400bdc4e8565cc88d9f256bee629946c70a56045dea81e66b8dfe9b4025e0671458f288cee90fb56abbcbaa0d3c0ac6173e5dd6f467e9dfad0d4a688de90bccf2bb75cb2afff91513ddd78fb25efd37f379317c0c3d014320863f15ae6201f8bd5e49153d2ea4f58e7eb6cb52f8fe4bae1558f29d0751caf07f8988460ab3f643c2a4b2c4c263d9469a734aa01ebd2dab2a95cf55c75a5c0344d9eaf0e7cfb38eded9e4f84ef35bae07ad7ac37be9e6b79a9c34cc057b1d9e8687c70
+2014/09/04 20:58:44 json payload: {"uuid":"88308a1a0700","format_ver":"102","eiv":"652772ad83ea8a18d7b02f10295d733a"}
+2014/09/04 20:58:44 EIV: "652772ad83ea8a18d7b02f10295d733a"
+2014/09/04 20:58:44 responded: 200 map[Cache-Control:[no-cache no-store] Date:[Fri, 05 Sep 2014 03:58:44 GMT] Expires:[Thu, 01 Jan 1970 00:00:00 GMT] Set-Cookie:[JSESSIONID=0430ba48-8774-481b-aa16-55330304c47f; Path=/ctp] Connection:[keep-alive] Content-Type:[application/octet-stream;charset=UTF-8] Pragma:[no-cache] Content-Length:[32]]
+2014/09/04 20:58:44 response[32]: d94d702af470b2c9d3be35d37b1b36d2d3256b4a60bcb3fe5714981e42a64840
+2014/09/04 20:59:15 request:
+ POST /services.svc/StatIn HTTP/1.1
+Host: 10.1.10.17
+Content-Type: application/octet-stream
+User-Agent: WMSDK/1.0.0
+
+{"uuid":"88308a1a0700","format_ver":"102","eiv":"d3256b4a60bcb3fe5714981e42a64840"}
+2014/09/04 20:59:15 Payload[304]: bce60d4a29b141714e1a240b9b44ff608469d0813044322211756cdb5158189803c842f38028fa9ea06be319b92d06fcf533c512cfbda10f338de1061df239732ec863fd15bec90cf175ff7bbe25b39b4a32a2a1d733710dfba0caa48a80b917c75344f7ded3c0d9ddcf4b7cf5046c5241e3153367eee15620bc2afc9c7df2de00e8c030403905a4586ff3c6b4a94369108dc1cc7d3cf9c4c234a2960ca19508a036a81e96d39c2d95cf3cbda1fe26dfd3a6611d81aff1f97adcd7e7ce798e9d3a7470d551dfeea17697274b0f674cdccca0b1797db15f180d8f939b4d8dff3ae5e1931798fc085207952dfdd5a6cf78175ac9a1518dc9b91faa100ae7f2be8331ffaf9eb06a0481a76b645f5db02a1f734d8dabcfd6c6df6269ca18cff6195287857278502ba88e40918a241d13a6ef
+2014/09/04 20:59:15 json payload: {"uuid":"88308a1a0700","format_ver":"102","eiv":"d3256b4a60bcb3fe5714981e42a64840"}
+2014/09/04 20:59:15 EIV: "d3256b4a60bcb3fe5714981e42a64840"
+2014/09/04 20:59:15 responded: 200 map[Content-Type:[application/octet-stream;charset=UTF-8] Expires:[Thu, 01 Jan 1970 00:00:00 GMT] Pragma:[no-cache] Content-Length:[80] Connection:[keep-alive] Cache-Control:[no-cache no-store] Date:[Fri, 05 Sep 2014 03:59:15 GMT] Set-Cookie:[JSESSIONID=ff1b1ed7-e107-487b-b5d0-f489ae764a56; Path=/ctp]]
+2014/09/04 20:59:15 response[80]: 599e8244cade0760790d00ca452e9585f65bf06eabcb896e46c9e568d9a01bc4bef95cac10f7aab403baf97f0d86d1ed519134a92fa600161b3eea12bd05bb9f19ee95a3d8fac7bd5bb2bf35fa3369c9
+2014/09/04 20:59:16 request:
+ POST /services.svc/StatIn HTTP/1.1
+Host: 10.1.10.17
+Content-Type: application/octet-stream
+User-Agent: WMSDK/1.0.0
+
+{"uuid":"88308a1a0700","format_ver":"102","eiv":"19ee95a3d8fac7bd5bb2bf35fa3369c9"}
+2014/09/04 20:59:16 Payload[208]: d1d516d342bef464d0c0c811b35cf4f64b47b7b27a8937a27e59d42cb504a867e72a3621ea6bdc6ccb9b7db9fc7bc12535426fbc3cdbb816b962a640223a9643a7a188a3bc7480a3d2f0790371ac6ac0042a58bb9cd3317b2bd1578af7c679feb1d3f3150b85f3fcb7fd76802c1264ed52b0027a607e29949a1d6e5987b4b7f217af54b4302e26d871327b7b6553a5f46dbb7e868063acd21234527e1c05243cda384f16a2e582d8e55c0f0f5cadd7df4c46553043d599841a00383e7a862c7153753b9de3464a37462727e9944fc567
+2014/09/04 20:59:16 json payload: {"uuid":"88308a1a0700","format_ver":"102","eiv":"19ee95a3d8fac7bd5bb2bf35fa3369c9"}
+2014/09/04 20:59:16 EIV: "19ee95a3d8fac7bd5bb2bf35fa3369c9"
+2014/09/04 20:59:16 responded: 200 map[Cache-Control:[no-cache no-store] Content-Type:[application/octet-stream;charset=UTF-8] Pragma:[no-cache] Set-Cookie:[JSESSIONID=8fb48063-7290-4bbd-ab9c-6f897f70e125; Path=/ctp] Date:[Fri, 05 Sep 2014 03:59:16 GMT] Expires:[Thu, 01 Jan 1970 00:00:00 GMT] Content-Length:[48] Connection:[keep-alive]]
+2014/09/04 20:59:16 response[48]: fe588177a56aeb6ce6d9e7474d90d50c771c7eab0240e120cfb4330b9b62b4f0c71322b7233dad639ab7ce12ee47ba19
+2014/09/04 20:59:16 request:
+ POST /services.svc/StatIn HTTP/1.1
+Host: 10.1.10.17
+Content-Type: application/octet-stream
+User-Agent: WMSDK/1.0.0
+
+{"uuid":"88308a1a0700","format_ver":"102","eiv":"c71322b7233dad639ab7ce12ee47ba19"}
+2014/09/04 20:59:16 Payload[336]: 9b52e9e20ddaa0cd09f327a1efe14945aada53889539569cd8a7bc29d682c4b8be263f958723fcd7a8a56bf13120b7629c3537219b9360ebe4f5c7520ea49adf4e8e489d1e27cb9c4a622c258d81e872b6a3728c8304b6e48435892eb1dae48170ad1e8fb72b9397ac13701252d37b90496d1fe85b9d4f2d7c70a7cce977cb6cafb10b006aaca207560b8dafc5d42a861faaf661e5719e3bfc513995cd6c21f5ecfacfb3c05162bef1a4b93f374411f22c99ed608a05c85b31874969b9d130be72361bb6f009c32bc58dacdfd1931e86b016b910207b78361a4d7ad9f45ba723e8a5c195cce7028058e36bb5034d1bf68995c11b6aebaa7f293cb6c49922c7eb906f35e91b845a82a23872c23a1d235abdec31e5f2b768fb5eb87f621221ebc503ca1e041e5c75d12e7b9b701bcbaec11be47003279a97ae61baab58d043d53d650fe67d71f5a4dd130c5c9b01ea0835
+2014/09/04 20:59:16 json payload: {"uuid":"88308a1a0700","format_ver":"102","eiv":"c71322b7233dad639ab7ce12ee47ba19"}
+2014/09/04 20:59:16 EIV: "c71322b7233dad639ab7ce12ee47ba19"
+2014/09/04 20:59:16 responded: 200 map[Cache-Control:[no-cache no-store] Content-Type:[application/octet-stream;charset=UTF-8] Expires:[Thu, 01 Jan 1970 00:00:00 GMT] Pragma:[no-cache] Set-Cookie:[JSESSIONID=44d44ee9-300b-4fcd-9749-87bf96bcde2e; Path=/ctp] Content-Length:[32] Connection:[keep-alive] Date:[Fri, 05 Sep 2014 03:59:16 GMT]]
+2014/09/04 20:59:16 response[32]: fb2951780ea6395cd77a3a480348c4499c15ee40a0153cd6ac57d533864e786c
+2014/09/04 20:59:48 request:
+ POST /services.svc/StatIn HTTP/1.1
+Host: 10.1.10.17
+Content-Type: application/octet-stream
+User-Agent: WMSDK/1.0.0
+
+{"uuid":"88308a1a0700","format_ver":"102","eiv":"9c15ee40a0153cd6ac57d533864e786c"}
+2014/09/04 20:59:48 Payload[304]: 9363464d9c7864e668c89ef55c9a0ea17a483e4d0afdf613bde8169933de223b93118b92f22fd39c43532525e679d1cdb379ac88f875aeb551d8889f5920ef24fc705af0ced992ec9c59d6c6aa3041f19739a5f28727ed9bb541d7e0a7bd546c256f724a96878f15199b2f9ddda7c4c3bd32e1bb44da94fa39eb8bf6e913994ea170be8efaf3851bf1f618b9cf3c987cd80165b30df7bc1089d9af6b38ac9b006f05d4380d4027bf8a9b978a1eeb79b81d0d60e9725a7320147010e4318587176b04eaf9c00c966c92853d3bfc4414f9696fd8ae30338007790820dbfc390a7907a6047ae8af6714977bd936b5f620d3b48d72babfce1106f4af5eeb2a6bf571ae4098dea3ccd41c7fde47f6760977b2595c13da6b9f584ccb8e94b0a20d69c5db7861a5d2c8105f671d1b33c8792d0e
+2014/09/04 20:59:48 json payload: {"uuid":"88308a1a0700","format_ver":"102","eiv":"9c15ee40a0153cd6ac57d533864e786c"}
+2014/09/04 20:59:48 EIV: "9c15ee40a0153cd6ac57d533864e786c"
+2014/09/04 20:59:48 responded: 200 map[Cache-Control:[no-cache no-store] Content-Type:[application/octet-stream;charset=UTF-8] Pragma:[no-cache] Set-Cookie:[JSESSIONID=c21a9e92-3873-4b38-89b5-5e5b04d71e50; Path=/ctp] Connection:[keep-alive] Date:[Fri, 05 Sep 2014 03:59:48 GMT] Expires:[Thu, 01 Jan 1970 00:00:00 GMT] Content-Length:[32]]
+2014/09/04 20:59:48 response[32]: 89e2d899aa1b29b9dcf6b1664e4ea590e39ab5d857dec59cd960bcd69ff1a433
+2014/09/04 21:00:19 request:
+ POST /services.svc/StatIn HTTP/1.1
+Host: 10.1.10.17
+Content-Type: application/octet-stream
+User-Agent: WMSDK/1.0.0
+
+{"uuid":"88308a1a0700","format_ver":"102","eiv":"e39ab5d857dec59cd960bcd69ff1a433"}
+2014/09/04 21:00:19 Payload[304]: c7b1c6c04bae65793b38f27b55283d5291dcdb77ad2035cbc2fb196e4850aff926d30131915a74bdaf45490ef41d2f9ea35e39a12d4e183867e22f39c8124ec985d7c0ca42a1dae3662106fe7a64607329aa44fc758e58b2284090e27ba914e927a3bd6da1ed2abdcd22643e7ffd88bcc24a739c14b6f1b611c4ea349d600f9b15182c33c6e97e7b503820c036e92257004a4d1d753a6f8a53ae804efbdaa5a43798f163050d0078e5dc332bb83054444b18e60832d17b59c56d0b1222fc80a439eb2e0f484836dabfbb8941f98c813d3cf7e09a913fa774fae75bf3ed960d40164ff3a5d74d96b89b56916634f4bfec21ce01d7daad903a809f5f154460fe1c0793c8497d96546855bfdd16eefbfffaa8b795c21116aa8506aac3afc4be1d5ee98e79481dbf621f7af0c2d3c4a6f801
+2014/09/04 21:00:19 json payload: {"uuid":"88308a1a0700","format_ver":"102","eiv":"e39ab5d857dec59cd960bcd69ff1a433"}
+2014/09/04 21:00:19 EIV: "e39ab5d857dec59cd960bcd69ff1a433"
+2014/09/04 21:00:19 responded: 200 map[Cache-Control:[no-cache no-store] Date:[Fri, 05 Sep 2014 04:00:19 GMT] Content-Length:[32] Connection:[keep-alive] Content-Type:[application/octet-stream;charset=UTF-8] Expires:[Thu, 01 Jan 1970 00:00:00 GMT] Pragma:[no-cache] Set-Cookie:[JSESSIONID=74b8d7f4-0ef1-4660-87f1-aedd51a01226; Path=/ctp]]
+2014/09/04 21:00:19 response[32]: 198f2f4d95638cc4b28bbab89cd0cff91e0a6c85f4dbfc1152684479074aeb94
+2014/09/04 21:00:51 request:
+ POST /services.svc/StatIn HTTP/1.1
+Host: 10.1.10.17
+Content-Type: application/octet-stream
+User-Agent: WMSDK/1.0.0
+
+{"uuid":"88308a1a0700","format_ver":"102","eiv":"1e0a6c85f4dbfc1152684479074aeb94"}
+2014/09/04 21:00:51 Payload[304]: 1f261d049b402c9217d317e52cfd7d5982cdc824f72fadfa11172a0c7759d9c96ce321681d5f374b1440e11cebac452fe061c6bd2231b4bb3343dccbae4261e5eb7ee522b952a7f8e1630b46a4666653391a15dfcd1a551fdd6fd5873146dd60c51d27a38d5047d7af0d75f8ea72eefd9fb148d85ad004d6dc60c28d32aa9b12bf050b10010b26ffe105bb136eec986bc77155ebccf3a3146eac4c246411888c29fff134547f0b5e194038d24b7f84071e6ea9a81476f543272285a4a30e6f029d1aa90f43657e8cdba7eb9813713b4a2037c807843beb1828615702c26bd5a0076487d75e81aa9d03efbbe203a15a1c851292beecd0b9b46c33506519c2ab3b1707daaf1f0208b0f5bb8f68318b0667c198f6a565b4190ed153ba4c0e147981482d6874ff0db946494ba670ecc2d7f5
+2014/09/04 21:00:51 json payload: {"uuid":"88308a1a0700","format_ver":"102","eiv":"1e0a6c85f4dbfc1152684479074aeb94"}
+2014/09/04 21:00:51 EIV: "1e0a6c85f4dbfc1152684479074aeb94"
+2014/09/04 21:00:51 responded: 200 map[Cache-Control:[no-cache no-store] Date:[Fri, 05 Sep 2014 04:00:51 GMT] Expires:[Thu, 01 Jan 1970 00:00:00 GMT] Pragma:[no-cache] Content-Length:[32] Connection:[keep-alive] Content-Type:[application/octet-stream;charset=UTF-8] Set-Cookie:[JSESSIONID=2f2ea1ca-eba3-4526-adcd-f2144cb2ed1d; Path=/ctp]]
+2014/09/04 21:00:51 response[32]: 47ce960d37ee04f36328f7d3463bc4446ed1e7af118fdba8d67c528fbf0a1dbe
+2014/09/04 21:01:22 request:
+ POST /services.svc/StatIn HTTP/1.1
+Host: 10.1.10.17
+Content-Type: application/octet-stream
+User-Agent: WMSDK/1.0.0
+
+{"uuid":"88308a1a0700","format_ver":"102","eiv":"6ed1e7af118fdba8d67c528fbf0a1dbe"}
+2014/09/04 21:01:22 Payload[304]: 4e9786132faf22b53396a68d223f2d46187fbdf8cd687d7d72741c6c5108876e490c687973e40a2e438758930f5b120de4219fa0e8aa2589695f69a40a5e5d546fd6197fc2224e8818b1a6a64fa20258a6a2e63cba64ed76e8beff33d36aea708327f536ca2d1e1a627f6cfedecc321084bc4767fa7a2e9381859cbf7ad63ae41afc9618908f37b36c014b3bd103da79b9c585933edea4ac50bfaa48f2c827b2e166a1fb2dabcfbb23c75a9ef560dce55a207ab32653ea31ffdd6552c9c996f7a10d5045ec20e8838dfc9435b06ecaf2632840912dcbd09473600ae43dcc2da0cce3061cd8c1c853c74cd22d6768a009ab08d75c15693ac14f4ac3953290440436cd2ac994e90ae81363f2c71ba77a2150cf05b452872dd8634fd72138b66462a72f9ace026cb85159274cbae631ace3
+2014/09/04 21:01:22 json payload: {"uuid":"88308a1a0700","format_ver":"102","eiv":"6ed1e7af118fdba8d67c528fbf0a1dbe"}
+2014/09/04 21:01:22 EIV: "6ed1e7af118fdba8d67c528fbf0a1dbe"
+2014/09/04 21:01:22 responded: 200 map[Cache-Control:[no-cache no-store] Date:[Fri, 05 Sep 2014 04:01:22 GMT] Content-Length:[32] Content-Type:[application/octet-stream;charset=UTF-8] Expires:[Thu, 01 Jan 1970 00:00:00 GMT] Pragma:[no-cache] Set-Cookie:[JSESSIONID=2ef6cd89-aaa8-4109-ae30-a6f3967efced; Path=/ctp] Connection:[keep-alive]]
+2014/09/04 21:01:22 response[32]: decc29f19dbce52e6719e2685ad5e4afd67395d1e7f78288eb32c9199d2c20bc
+2014/09/04 21:01:54 request:
+ POST /services.svc/StatIn HTTP/1.1
+Host: 10.1.10.17
+Content-Type: application/octet-stream
+User-Agent: WMSDK/1.0.0
+
+{"uuid":"88308a1a0700","format_ver":"102","eiv":"d67395d1e7f78288eb32c9199d2c20bc"}
+2014/09/04 21:01:54 Payload[304]: a6a5c90de9578de913d9da0375fde153416a4dd70e0e579ca14e958f354a40cff25301b4462ea46594f302c481248e8db01cd4fa7d05cff09cd609d421d6bc2b8af2128ca6698701a9b370f0df749b744772eab2b64ca18d9e1dd0f23d407fcad01c95987ceb0ce390f754435324355f9ee6887855f7b23a5712bac181d6d5ece15013c8879488f1a633309dc85730edd9348e1f9b1ed00760ffa0d2f30c22f8c1993f57af4bf0ddbeedeb02a72e484aeb4dfe15f7180905b1c7f47a53d82f0d70347ef2e2b9166b2b32d72a587cc9a4d64b3ae97f558d769d223365b51f708f94e97abc0d1db3b4b9a166427f968c017efa80d82a44acdd0e453d755bce70a4dd044cb26ff76fb8df4995f637660275e9c39aeac6d0c56bbca3363c5a8e8986dc86f16e542809b2e830b8538b7782bb
+2014/09/04 21:01:54 json payload: {"uuid":"88308a1a0700","format_ver":"102","eiv":"d67395d1e7f78288eb32c9199d2c20bc"}
+2014/09/04 21:01:54 EIV: "d67395d1e7f78288eb32c9199d2c20bc"
+2014/09/04 21:01:54 responded: 200 map[Expires:[Thu, 01 Jan 1970 00:00:00 GMT] Connection:[keep-alive] Cache-Control:[no-cache no-store] Content-Type:[application/octet-stream;charset=UTF-8] Date:[Fri, 05 Sep 2014 04:01:54 GMT] Pragma:[no-cache] Set-Cookie:[JSESSIONID=e8371767-17b4-41c7-9bfd-16ac21de2cc1; Path=/ctp] Content-Length:[32]]
+2014/09/04 21:01:54 response[32]: 2ed32d01791a433550a51782b7212aebda44afa78189ece86c3b09b9fdbecea2
+2014/09/04 21:02:25 request:
+ POST /services.svc/StatIn HTTP/1.1
+Host: 10.1.10.17
+Content-Type: application/octet-stream
+User-Agent: WMSDK/1.0.0
+
+{"uuid":"88308a1a0700","format_ver":"102","eiv":"da44afa78189ece86c3b09b9fdbecea2"}
+2014/09/04 21:02:25 Payload[304]: 627910143ac044ecaffe06aaa6b3bed6824a5a352d7395463260700aed9bc73757af94b67353c8cc2bd7dbd99ebb03629b882424b490720107ff063db348c69d8c792cc2deca7230113fbaf8bf722d0c3ffa53a4992be870ef2bdd1cf79deeaa53338780f55d310df4b81a5cfc3c4f9d2a3d8fcfaa9adc036604edec7e47923e0ab7acab8cff2293d4603fa21e23a784cdd517730a4575020fb00fa2269044bbe018c64f4f29c47f9e5897525e155abeee245e6eb1b9af55e14b2d9d2fd1269cf90fcba6ca618d3b6e5577d5d6a40283149ea2afde827a2c9cf253a3a4e56a16a5a383328320f1d4e2662e4809a332e425ec51606a655597242453c8d4bbe7a5d160ccc6199c6f50cf0f0f760bf8ecdebff18b605838a04348853a0f5523be4ca708060fec897a33ed3cebc7d9ff45f9
+2014/09/04 21:02:25 json payload: {"uuid":"88308a1a0700","format_ver":"102","eiv":"da44afa78189ece86c3b09b9fdbecea2"}
+2014/09/04 21:02:25 EIV: "da44afa78189ece86c3b09b9fdbecea2"
+2014/09/04 21:02:25 responded: 200 map[Content-Type:[application/octet-stream;charset=UTF-8] Pragma:[no-cache] Set-Cookie:[JSESSIONID=267ca9c7-019a-4ffe-8100-8000dd7e5416; Path=/ctp] Content-Length:[32] Cache-Control:[no-cache no-store] Date:[Fri, 05 Sep 2014 04:02:25 GMT] Expires:[Thu, 01 Jan 1970 00:00:00 GMT] Connection:[keep-alive]]
+2014/09/04 21:02:25 response[32]: 2ef92132eb88ab6a73c5baf0536b5363814d7c8170d279d85689b5c2f33763eb
+2014/09/04 21:02:56 request:
+ POST /services.svc/StatIn HTTP/1.1
+Host: 10.1.10.17
+Content-Type: application/octet-stream
+User-Agent: WMSDK/1.0.0
+
+{"uuid":"88308a1a0700","format_ver":"102","eiv":"814d7c8170d279d85689b5c2f33763eb"}
+2014/09/04 21:02:56 Payload[304]: 6948a0206aa35828716f3bd479457c07c5f0ed49add5328371eca64b07ead291234bb367d13769d452f253a483ef04f2734db8314d117447ba03bf0b7e9d1bd073302f15d077c7a6c155da9a5dfc9a8616b7b621c1970547c6b688377edf3eb713b277f2e463f1f1a706c8b38432189a4aa3fee06e48b6b63610689c380417fffd344a83f96fa74851e339adba84ed3212c6978db9e9127db532d182702ee0e8a2c031faf9ea1f2694128829ac10184c630caeca9d7549b321e9edf1a5f51ed62e622cde378011d513ac1414967b97e3edcc38537fbe871d2f7aa06e1d69af4f43605c98948f60aed49a1feac0d4426356f2ffa8ce7fcc08399ea7f7f817f89b9f2170b980b3d7db4e3a60e37f3ba56133dc06dab7a4a960d37e93b20727a75974114109007f44bf5fd6970d5394d54e
+2014/09/04 21:02:56 json payload: {"uuid":"88308a1a0700","format_ver":"102","eiv":"814d7c8170d279d85689b5c2f33763eb"}
+2014/09/04 21:02:56 EIV: "814d7c8170d279d85689b5c2f33763eb"
+2014/09/04 21:02:57 responded: 200 map[Content-Type:[application/octet-stream;charset=UTF-8] Expires:[Thu, 01 Jan 1970 00:00:00 GMT] Pragma:[no-cache] Set-Cookie:[JSESSIONID=a0cacb75-3453-4692-b3ad-b5f0ecafd7bf; Path=/ctp] Content-Length:[32] Cache-Control:[no-cache no-store] Date:[Fri, 05 Sep 2014 04:02:56 GMT] Connection:[keep-alive]]
+2014/09/04 21:02:57 response[32]: 35f8651600bf71a658a1d66242e151e23291b5ca515286b517dd2bb012268c51
+2014/09/04 21:03:28 request:
+ POST /services.svc/StatIn HTTP/1.1
+Host: 10.1.10.17
+Content-Type: application/octet-stream
+User-Agent: WMSDK/1.0.0
+
+{"uuid":"88308a1a0700","format_ver":"102","eiv":"3291b5ca515286b517dd2bb012268c51"}
+2014/09/04 21:03:28 Payload[304]: b0083c4fa41b71cb5dd37a6df5832d24b14a006f765035dd0e3f80a802ca82b025b6efe21faf03a7bf92e19e99ae9ee98fd98e732204400510ccdf65d97e7caf120f5ba9fa2f2e94fca8526570209c0231935872903cd734876ffbdd6145a500217bec6db9c103f3ae46a0311115934549c15806bafab3e7a5b6f1d9092440f002fca34eabce1e994f1bd654ef65fcb8d5dd70c13e3319570f861f06a95b509a5ed1845482f5912fbcb23a86651bfea550f4dfb39e057037a4355e655f59aa60e2244aa22100f7e6240f69e6e8817dd6763cd5b5a7666c7466ba3e839a6597a75cce1f6f9fa295ea9ef71227e8c9056017387ac7ae0084032575fbe43fe6cc10a476cdb5cc20e9e6433073b564352e729201eafc3e3e7c8244c03c9695f33824d00c7a68671c9834caed8e13af46c48d
+2014/09/04 21:03:28 json payload: {"uuid":"88308a1a0700","format_ver":"102","eiv":"3291b5ca515286b517dd2bb012268c51"}
+2014/09/04 21:03:28 EIV: "3291b5ca515286b517dd2bb012268c51"
+2014/09/04 21:03:28 responded: 200 map[Content-Type:[application/octet-stream;charset=UTF-8] Date:[Fri, 05 Sep 2014 04:03:28 GMT] Pragma:[no-cache] Connection:[keep-alive] Cache-Control:[no-cache no-store] Expires:[Thu, 01 Jan 1970 00:00:00 GMT] Set-Cookie:[JSESSIONID=2c6ef86d-8ca8-4470-855c-8748639c97cf; Path=/ctp] Content-Length:[32]]
+2014/09/04 21:03:28 response[32]: e3bc183bed2cc52ad386817a21ff88cd699b2cfb24113a4f321932995d35f310
+2014/09/04 21:03:59 request:
+ POST /services.svc/StatIn HTTP/1.1
+Host: 10.1.10.17
+Content-Type: application/octet-stream
+User-Agent: WMSDK/1.0.0
+
+{"uuid":"88308a1a0700","format_ver":"102","eiv":"699b2cfb24113a4f321932995d35f310"}
+2014/09/04 21:03:59 Payload[304]: e60a62a07565f5237bfc1ba6351f5f3c707ba94f5cbda20fb7497c6993906f93922b3805ca56d2d8e80ee40444d8fbf9ff614d0294c3e49b4387608d2788e566af64a7d96b99484b7576ff22bc7eed2924b116611ed517862afbed6c20c4ffb32c3b58f0564f1ad25deda8425c36e0377323c626aa72ca4595685d6facf37dd66ae64c025eb6fa0f3fefcaa4f74d55dd4b5d8a57c453bdfd55b04b712da876d80f8d28fef46cf3c8170cc4ecf8b0cbcfbd392026a28cfb97f5add9cca5cb324fd5e9716e7e7b35512d902bc634b70aac21956d2f07a7acbc14597712b078112f427920805ba52b9ab3fd0c500768582385b47ce6a19141d85355607860ad279050d2c5999d4a6bf5b75b9a8d5b386b00dca2443c1b626b53186acb20339d41eda47555b31b57c107d1fb780fef4bc139
+2014/09/04 21:03:59 json payload: {"uuid":"88308a1a0700","format_ver":"102","eiv":"699b2cfb24113a4f321932995d35f310"}
+2014/09/04 21:03:59 EIV: "699b2cfb24113a4f321932995d35f310"
+2014/09/04 21:03:59 responded: 200 map[Set-Cookie:[JSESSIONID=61915a75-6866-49f4-ae97-15815dea59bf; Path=/ctp] Content-Length:[32] Connection:[keep-alive] Cache-Control:[no-cache no-store] Content-Type:[application/octet-stream;charset=UTF-8] Date:[Fri, 05 Sep 2014 04:03:59 GMT] Expires:[Thu, 01 Jan 1970 00:00:00 GMT] Pragma:[no-cache]]
+2014/09/04 21:03:59 response[32]: bc50192bae798815d3e8b8f509bbf66189c099c92aa659efe20b4b5c61c01282
+2014/09/04 21:04:31 request:
+ POST /services.svc/StatIn HTTP/1.1
+Host: 10.1.10.17
+Content-Type: application/octet-stream
+User-Agent: WMSDK/1.0.0
+
+{"uuid":"88308a1a0700","format_ver":"102","eiv":"89c099c92aa659efe20b4b5c61c01282"}
+2014/09/04 21:04:31 Payload[304]: d93e8cc01a08005550d2ca72f09f40f88c2b613c7f421aa3a537b72ced21c680ccd9e89fc5c20be4dbd1385c5a1b28a86c674acece19d3350f0cefca156bd53ddbc389b6525c88ae18289eab290562d396aa32c67a8643fdcd1b24a9f09b3f9120a9ef07f1ad57d43ae6115bac2eff1905b32656cdf0e642bb1236982f51ec12e3b715dc75613a57344418bd871e89ff6583c4ab6e5c031f452ffd5baf8b1ed139df607b9a5d1e559917db1c7dbcaff3de9dfc45e2b665a3992f409bcc9d60fb8840edd4ff35c90cfbc368a35408055b2bcecd7a82eef647fff638d4884d20d49ea325c0bdbfd75d676dbca7c0cb4c74bc3b4b1d62de0b4750f9f9aebf22de5c64e1355fc749b3b627a201d4b6b43f3299f45cf2a448204ea0686b1bc37deec23bc2bbd89abc3c22b03e5921eb844764
+2014/09/04 21:04:31 json payload: {"uuid":"88308a1a0700","format_ver":"102","eiv":"89c099c92aa659efe20b4b5c61c01282"}
+2014/09/04 21:04:31 EIV: "89c099c92aa659efe20b4b5c61c01282"
+2014/09/04 21:04:31 responded: 200 map[Set-Cookie:[JSESSIONID=2dc7260b-b9fc-420e-8997-eb72c501cc35; Path=/ctp] Content-Length:[32] Cache-Control:[no-cache no-store] Content-Type:[application/octet-stream;charset=UTF-8] Date:[Fri, 05 Sep 2014 04:04:31 GMT] Expires:[Thu, 01 Jan 1970 00:00:00 GMT] Pragma:[no-cache] Connection:[keep-alive]]
+2014/09/04 21:04:31 response[32]: adb4dd70d561969750017178c6d670afd6ff3919544e680c1cb0d3a45a4f865e
+2014/09/04 21:05:02 request:
+ POST /services.svc/StatIn HTTP/1.1
+Host: 10.1.10.17
+Content-Type: application/octet-stream
+User-Agent: WMSDK/1.0.0
+
+{"uuid":"88308a1a0700","format_ver":"102","eiv":"d6ff3919544e680c1cb0d3a45a4f865e"}
+2014/09/04 21:05:02 Payload[304]: b5bda1619609a00f27d228989bd0803436e4b0628dc43ae08303f3fc11c40e085983434ac4cd20dfcfe8afc6c91b848d43782a868c7c6dfab6d6db2efdf77b472d9146c895df9c427f704509e50a71e09a28a3a7218ef1378cd66765f3d2858a98d5c7c84ba150dbf101b055233aab1f116730c751dc0ff960ecacad0bd0c51d910f87e19b51dacb84a1e5d8282b7e1dabf6565243b5fbe67fd2a348470575993b5c78db978edaeb2c2d5b3b7e649374c4c7e0bd6ef4dc52eff7aecbe0bb6f89a9b33e028fd0c2c5c81c2449c9d611f7f2cb09e5f890c4f9fb3a81cb95385cea1809ab52b459afb338abe0996e5d88c9907dc39bd1ff3ff1110301cf6fe6baf3a550ca6624907cd212bdbc3c908ec3f35965c4e03acb1b4618cdb15acdd7dee3b304664041f70f72abc6a2f254db16b3
+2014/09/04 21:05:02 json payload: {"uuid":"88308a1a0700","format_ver":"102","eiv":"d6ff3919544e680c1cb0d3a45a4f865e"}
+2014/09/04 21:05:02 EIV: "d6ff3919544e680c1cb0d3a45a4f865e"
+2014/09/04 21:05:02 responded: 200 map[Content-Type:[application/octet-stream;charset=UTF-8] Expires:[Thu, 01 Jan 1970 00:00:00 GMT] Cache-Control:[no-cache no-store] Date:[Fri, 05 Sep 2014 04:05:02 GMT] Pragma:[no-cache] Set-Cookie:[JSESSIONID=a0588502-0f67-4a6c-8fbf-2092872d2d99; Path=/ctp] Content-Length:[32] Connection:[keep-alive]]
+2014/09/04 21:05:02 response[32]: cf4fe8db9cad1f07d8139613e76e0ea1a191b6cbed9d76f099305153a18f50fd
