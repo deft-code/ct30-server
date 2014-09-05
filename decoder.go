@@ -11,8 +11,8 @@ import (
 	"unicode"
 )
 
-var uuidFlag = flag.String("uuid", "01234567890a", "uuid from /cloud")
-var authkeyFlag = flag.String("authkey", "01234567", "authkey from /cloud")
+var uuidFlag = flag.String("uuid", "001122334455", "uuid from /cloud")
+var authkeyFlag = flag.String("authkey", "00112233", "authkey from /cloud")
 
 func clean(data []byte) string {
 	fields := bytes.FieldsFunc(data, func(r rune) bool {
