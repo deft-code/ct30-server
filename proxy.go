@@ -2,17 +2,20 @@ package main
 
 import (
 	"bytes"
-	"compress/gzip"
 	"encoding/hex"
 	"encoding/json"
 	"errors"
 	"flag"
 	"fmt"
-	"io/ioutil"
+	"log"
+	"net/http"
+	"net/http/httputil"
+	"net/url"
+	"os"
 	"strings"
 )
 
-var urlFlag = flag.String("radio_url", "http://ws.radiothermostat.com", "Don't include the path component")
+var domainFlag = flag.String("radio_domain", "http://ws.radiothermostat.com", "Don't include the path component")
 var port = flag.String("port", ":8080", "The port the proxy should listen on.")
 
 var reverseProxy *httputil.ReverseProxy
@@ -97,10 +100,9 @@ func handler(rw http.ResponseWriter, req *http.Request) {
 }
 
 func main() {
-
-	url, err := url.ParseRequestURI(*urlFlag)
+	url, err := url.ParseRequestURI(*domainFlag)
 	if err != nil {
-		log.Fatalf("failed to parse url '%s': %s", *urlFlag, err)
+		log.Fatalf("failed to parse url '%s': %s", *domainFlag, err)
 	}
 	reverseProxy = httputil.NewSingleHostReverseProxy(url)
 
